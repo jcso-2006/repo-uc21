@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".filtro" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="672dp"
+        android:layout_height="933dp"
+        app:srcCompat="@drawable/rectangle_1"
+        tools:layout_editor_absoluteX="-131dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="88dp"
+        android:layout_height="117dp"
+        android:text="| "
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="barbaro"
+        android:textColor="#f6f6f6"
+        android:textColorLink="#AB9C9C"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="necromante"
+        android:textColor="#f6f6f6"
+        android:textColorHighlight="#f6f6f6"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mago"
+        android:textColor="#f6f6f6"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="druida"
+        android:textColor="#f6f6f6"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rogue"
+        android:textColor="#f6f6f6"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00040404"
+        android:text="Meta bulid"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:text="start build"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="build endgame"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="36dp"
+        android:layout_height="206dp"
+        android:text="| "
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#E8E5E5"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <FrameLayout
+        android:layout_width="358dp"
+        android:layout_height="377dp"
+        android:background="#380000"
+        android:backgroundTint="#230000"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="424dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

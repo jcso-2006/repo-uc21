@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".filtro" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="672dp"
+        android:layout_height="933dp"
+        app:srcCompat="@drawable/rectangle_1"
+        tools:layout_editor_absoluteX="-131dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="88dp"
+        android:layout_height="117dp"
+        android:text="| "
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="barbaro"
+        android:textColor="#f6f6f6"
+        android:textColorLink="#AB9C9C"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="necromante"
+        android:textColor="#f6f6f6"
+        android:textColorHighlight="#f6f6f6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mago"
+        android:textColor="#f6f6f6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="druida"
+        android:textColor="#f6f6f6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rogue"
+        android:textColor="#f6f6f6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00040404"
+        android:text="Meta bulid"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:text="start build"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="build endgame"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="36dp"
+        android:layout_height="206dp"
+        android:text="| "
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#E8E5E5"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <FrameLayout
+        android:layout_width="358dp"
+        android:layout_height="377dp"
+        android:background="#380000"
+        android:backgroundTint="#230000"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="394dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="314dp"
+        android:layout_height="141dp"
+        android:background="#432929"
+        android:backgroundTint="#432929"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="429dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="312dp"
+        android:layout_height="162dp"
+        android:background="#432929"
+        android:backgroundTint="#432929"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="585dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00070707"
+        android:text="Cria buldi"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="784dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

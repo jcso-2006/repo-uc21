@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite um int"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite uma string"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="var1"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite um double"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="var2"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="var3"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boolean:"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sim"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você esta souteiro ?"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="não"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="var4"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vocẽ aceita as condições "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Var5"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
